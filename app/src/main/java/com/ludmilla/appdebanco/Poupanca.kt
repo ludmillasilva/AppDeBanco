@@ -18,7 +18,7 @@ class Poupanca : AppCompatActivity() {
         val toolbar = binding.toolbarPoupanca
         toolbar.title = "Poupança"
         toolbar.setTitleTextColor(getColor(R.color.white))
-        toolbar.setTitleMargin(400,0,400,0)
+        toolbar.setTitleMargin(100,0,100,0)
         toolbar.setBackgroundColor(getColor(R.color.blue))
         toolbar.setNavigationIcon(getDrawable(R.drawable.ic_voltar))
         toolbar.setNavigationOnClickListener {
